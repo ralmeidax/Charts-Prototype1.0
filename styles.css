@@ -1,0 +1,122 @@
+html {
+  --text-color-normal: #0a244d;
+  --text-color-light: #8cabd9;
+  --text-color-white: #FFFAFA;
+  --secondary-first: #FFFAFA;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background-color: #262626;
+ 
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.title {
+    color: var(--text-color-white);
+  
+}
+
+.avatar{
+    height: 78px;
+    width: 78px;
+}
+
+.graphContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin: 20px;
+
+}
+
+/* #myPieChart{
+    padding: 50px;
+} */
+
+.chartBar{
+    height: 260px;
+    width: 420px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border-color: var(--secondary-first);
+    border-width: 5px;
+    background-color: rgba(255,255,255, 0.05)
+}
+
+.chartPie{
+    display: flex;
+    justify-content: center;
+    height: 260px;
+    width: 420px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border-color: var(--secondary-first);
+    border-width: 5px;
+    background-color: rgba(255,255,255, 0.05)
+}
+
+.resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cardResume{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    border-left:#32A852;
+    border-left-width: 7px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    height: 80px;
+    width: 240px;
+    border-radius: 7px;
+
+    box-shadow: 3px 3px 1.5px 0px rgba(0,0,0,0.55);
+
+    margin: 10px 5px;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color-normal);
+    padding: 5px;
+}
+
+.cardImage{
+    fill: seagreen;
+    stroke: slateblue;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cardTitle{
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.cardValue{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.credits{
+    color: var(--text-color-white);
+}
+ 
